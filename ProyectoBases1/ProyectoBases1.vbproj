@@ -131,6 +131,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="About.aspx" />
+    <Content Include="ActivarCuentaObjetivo.aspx" />
     <Content Include="AgregarBeneficiario.aspx" />
     <Content Include="Beneficiarios.aspx" />
     <Content Include="BeneficiariosCatalogo.aspx" />
@@ -191,6 +192,13 @@
     <Content Include="Bundle.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ActivarCuentaObjetivo.aspx.designer.vb">
+      <DependentUpon>ActivarCuentaObjetivo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ActivarCuentaObjetivo.aspx.vb">
+      <DependentUpon>ActivarCuentaObjetivo.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
     <Compile Include="AgregarBeneficiario.aspx.designer.vb">
       <DependentUpon>AgregarBeneficiario.aspx</DependentUpon>
     </Compile>

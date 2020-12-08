@@ -37,6 +37,78 @@ ProyectoBases1
  Devuelve el objeto de registro Asp.
  </summary>
 </member>
+<member name="F:ProyectoBases1.ActivarCuentaObjetivo._btnCrear">
+<summary>
+Control btnCrear.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:ProyectoBases1.ActivarCuentaObjetivo._lblAdvertencia">
+<summary>
+Control lblAdvertencia.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:ProyectoBases1.ActivarCuentaObjetivo._lblCuota">
+<summary>
+Control lblCuota.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:ProyectoBases1.ActivarCuentaObjetivo._lblSaldo">
+<summary>
+Control lblSaldo.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:ProyectoBases1.ActivarCuentaObjetivo._lblInterés">
+<summary>
+Control lblInterés.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:ProyectoBases1.ActivarCuentaObjetivo._txtBoxObjetivo">
+<summary>
+Control txtBoxObjetivo.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:ProyectoBases1.ActivarCuentaObjetivo._btnGuardar">
+<summary>
+Control btnGuardar.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:ProyectoBases1.ActivarCuentaObjetivo._btnDesactivar">
+<summary>
+Control btnDesactivar.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
 <member name="F:ProyectoBases1.AgregarBeneficiario._lblcedula">
 <summary>
 Control lblcedula.

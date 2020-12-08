@@ -28,5 +28,7 @@ Public Class Segunda
         Response.Redirect("BeneficiariosCatalogo.aspx")
     End Sub
 
-
+    Protected Sub btnCuentaObjetivo_Click(sender As Object, e As EventArgs) Handles btnCuentaObjetivo.Click
+        Response.Redirect("ActivarCuentaObjetivo.aspx")
+    End Sub
 End Class

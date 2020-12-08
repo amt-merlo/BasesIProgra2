@@ -1,0 +1,23 @@
+DELETE FROM Usuario
+DELETE FROM Beneficiario
+DELETE FROM EstadodeCuenta
+DELETE FROM CuentadeAhorro
+DELETE FROM Persona
+DELETE FROM Parentesco
+DELETE FROM TipoCuentaAhorro
+DELETE FROM TipoDocIdentidad
+DELETE FROM TipoMoneda
+DELETE FROM TipoMovimientoCA
+DELETE FROM MovimientoCA
+
+DBCC CHECKIDENT (Usuario, RESEED, 0)
+DBCC CHECKIDENT (Beneficiario, RESEED, 0)
+DBCC CHECKIDENT (EstadodeCuenta, RESEED, 0)
+DBCC CHECKIDENT (CuentadeAhorro, RESEED, 0)
+DBCC CHECKIDENT (Persona, RESEED, 0)
+DBCC CHECKIDENT (Parentesco, RESEED, 0)
+DBCC CHECKIDENT (TipoCuentaAhorro, RESEED, 0)
+DBCC CHECKIDENT (TipoDocIdentidad, RESEED, 0)
+DBCC CHECKIDENT (TipoMoneda, RESEED, 0)
+DBCC CHECKIDENT  (TipoMovimientoCA, RESEED, 0)
+DBCC CHECKIDENT  (MovimientoCA, RESEED, 0)
