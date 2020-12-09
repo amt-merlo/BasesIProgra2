@@ -34,4 +34,8 @@
             Response.Redirect("AgregarBeneficiario.aspx")
         End If
     End Sub
+
+    Protected Sub SqlBeneficiarios_Selecting(sender As Object, e As SqlDataSourceSelectingEventArgs)
+
+    End Sub
 End Class

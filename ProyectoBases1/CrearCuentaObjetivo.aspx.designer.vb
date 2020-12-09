@@ -11,7 +11,34 @@ Option Strict On
 Option Explicit On
 
 
-Partial Public Class ActivarCuentaObjetivo
+Partial Public Class CrearCuentaObjetivoaspx
+
+    '''<summary>
+    '''Control txtBoxFechaInicio.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents txtBoxFechaInicio As Global.System.Web.UI.WebControls.TextBox
+
+    '''<summary>
+    '''Control txtBoxDias.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents txtBoxDias As Global.System.Web.UI.WebControls.TextBox
+
+    '''<summary>
+    '''Control txtBoxFechaFin.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents txtBoxFechaFin As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
     '''Control btnCrear.
@@ -23,58 +50,13 @@ Partial Public Class ActivarCuentaObjetivo
     Protected WithEvents btnCrear As Global.System.Web.UI.WebControls.Button
 
     '''<summary>
-    '''Control lblAdvertencia.
+    '''Control txtCuota.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents lblAdvertencia As Global.System.Web.UI.WebControls.Label
-
-    '''<summary>
-    '''Control lblCuota.
-    '''</summary>
-    '''<remarks>
-    '''Campo generado automáticamente.
-    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-    '''</remarks>
-    Protected WithEvents lblCuota As Global.System.Web.UI.WebControls.Label
-
-    '''<summary>
-    '''Control lblSaldo.
-    '''</summary>
-    '''<remarks>
-    '''Campo generado automáticamente.
-    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-    '''</remarks>
-    Protected WithEvents lblSaldo As Global.System.Web.UI.WebControls.Label
-
-    '''<summary>
-    '''Control lblInterés.
-    '''</summary>
-    '''<remarks>
-    '''Campo generado automáticamente.
-    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-    '''</remarks>
-    Protected WithEvents lblInterés As Global.System.Web.UI.WebControls.Label
-
-    '''<summary>
-    '''Control lblObjetivo.
-    '''</summary>
-    '''<remarks>
-    '''Campo generado automáticamente.
-    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-    '''</remarks>
-    Protected WithEvents lblObjetivo As Global.System.Web.UI.WebControls.Label
-
-    '''<summary>
-    '''Control lblEstado.
-    '''</summary>
-    '''<remarks>
-    '''Campo generado automáticamente.
-    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-    '''</remarks>
-    Protected WithEvents lblEstado As Global.System.Web.UI.WebControls.Label
+    Protected WithEvents txtCuota As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
     '''Control txtBoxObjetivo.
@@ -86,24 +68,6 @@ Partial Public Class ActivarCuentaObjetivo
     Protected WithEvents txtBoxObjetivo As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
-    '''Control btnGuardar.
-    '''</summary>
-    '''<remarks>
-    '''Campo generado automáticamente.
-    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-    '''</remarks>
-    Protected WithEvents btnGuardar As Global.System.Web.UI.WebControls.Button
-
-    '''<summary>
-    '''Control btnDesactivar.
-    '''</summary>
-    '''<remarks>
-    '''Campo generado automáticamente.
-    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-    '''</remarks>
-    Protected WithEvents btnDesactivar As Global.System.Web.UI.WebControls.Button
-
-    '''<summary>
     '''Control SqlDataSource1.
     '''</summary>
     '''<remarks>
@@ -111,13 +75,4 @@ Partial Public Class ActivarCuentaObjetivo
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents SqlDataSource1 As Global.System.Web.UI.WebControls.SqlDataSource
-
-    '''<summary>
-    '''Control SqlDataSource2.
-    '''</summary>
-    '''<remarks>
-    '''Campo generado automáticamente.
-    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-    '''</remarks>
-    Protected WithEvents SqlDataSource2 As Global.System.Web.UI.WebControls.SqlDataSource
 End Class

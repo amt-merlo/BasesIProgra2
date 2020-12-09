@@ -82,6 +82,24 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
+<member name="F:ProyectoBases1.ActivarCuentaObjetivo._lblObjetivo">
+<summary>
+Control lblObjetivo.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:ProyectoBases1.ActivarCuentaObjetivo._lblEstado">
+<summary>
+Control lblEstado.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
 <member name="F:ProyectoBases1.ActivarCuentaObjetivo._txtBoxObjetivo">
 <summary>
 Control txtBoxObjetivo.
@@ -103,6 +121,24 @@ Para modificarlo, mueva la declaración del campo del archivo del diseñador al 
 <member name="F:ProyectoBases1.ActivarCuentaObjetivo._btnDesactivar">
 <summary>
 Control btnDesactivar.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:ProyectoBases1.ActivarCuentaObjetivo._SqlDataSource1">
+<summary>
+Control SqlDataSource1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:ProyectoBases1.ActivarCuentaObjetivo._SqlDataSource2">
+<summary>
+Control SqlDataSource2.
 </summary>
 <remarks>
 Campo generado automáticamente.
@@ -406,6 +442,69 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
+<member name="F:ProyectoBases1.CrearCuentaObjetivoaspx._txtBoxFechaInicio">
+<summary>
+Control txtBoxFechaInicio.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:ProyectoBases1.CrearCuentaObjetivoaspx._txtBoxDias">
+<summary>
+Control txtBoxDias.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:ProyectoBases1.CrearCuentaObjetivoaspx._txtBoxFechaFin">
+<summary>
+Control txtBoxFechaFin.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:ProyectoBases1.CrearCuentaObjetivoaspx._btnCrear">
+<summary>
+Control btnCrear.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:ProyectoBases1.CrearCuentaObjetivoaspx._txtCuota">
+<summary>
+Control txtCuota.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:ProyectoBases1.CrearCuentaObjetivoaspx._txtBoxObjetivo">
+<summary>
+Control txtBoxObjetivo.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:ProyectoBases1.CrearCuentaObjetivoaspx._SqlDataSource1">
+<summary>
+Control SqlDataSource1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
 <member name="F:ProyectoBases1._Default._txtBoxUser">
 <summary>
 Control txtBoxUser.
@@ -472,6 +571,42 @@ Para modificarlo, mueva la declaración del campo del archivo del diseñador al 
 <member name="F:ProyectoBases1.EstadodeCuentaDetalle._GridView1">
 <summary>
 Control GridView1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:ProyectoBases1.EstadodeCuentaDetalle._SqlDataSource2">
+<summary>
+Control SqlDataSource2.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:ProyectoBases1.EstadodeCuentaDetalle._txtPatron">
+<summary>
+Control txtPatron.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:ProyectoBases1.EstadodeCuentaDetalle._btnBuscar">
+<summary>
+Control btnBuscar.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:ProyectoBases1.EstadodeCuentaDetalle._GridView2">
+<summary>
+Control GridView2.
 </summary>
 <remarks>
 Campo generado automáticamente.

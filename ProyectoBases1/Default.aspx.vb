@@ -35,4 +35,8 @@ Public Class _Default
             lblUsuarioIncorrecto.Text = "Usuario no registrado"
         End If
     End Sub
+
+    Protected Sub SqlDataSource1_Selecting(sender As Object, e As SqlDataSourceSelectingEventArgs)
+
+    End Sub
 End Class

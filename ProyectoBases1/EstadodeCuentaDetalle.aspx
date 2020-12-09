@@ -26,6 +26,41 @@
             
         </asp:GridView>
         
+        <br />
+        <br />
+        <h3>Movimientos Realizados
+            <asp:SqlDataSource ID="SqlDataSource2" runat="server" ConnectionString="<%$ ConnectionStrings:SistemaBancarioConnectionString %>" SelectCommand="SELECT [Fecha], [Monto], [NuevoSaldo], [Descripcion] FROM [MovimientoCA] WHERE (([EstadodeCuentaID] = @EstadodeCuentaID) AND ([numCuentaID] = @numCuentaID))">
+                <SelectParameters>
+                    <asp:QueryStringParameter Name="EstadodeCuentaID" QueryStringField="ID" Type="Int32" />
+                    <asp:SessionParameter Name="numCuentaID" SessionField="numCuenta" Type="Int32" />
+                </SelectParameters>
+            </asp:SqlDataSource>
+        </h3>
+        <br />
+        <asp:TextBox ID="txtPatron" runat="server"></asp:TextBox>
+&nbsp;
+        <asp:Button ID="btnBuscar" runat="server" Text="Buscar" />
+        <br />
+        <br />
+
+        <asp:GridView ID="GridView2" runat="server" cellpadding="5" cellspacing="5" 
+            AutoGenerateColumns = "False"
+            
+            DataSourceID = "SqlDataSource2" Width="608px" AllowPaging="True">
+            <PagerStyle ForeColor="#8C4510" 
+          HorizontalAlign="Center"></PagerStyle>
+            <HeaderStyle ForeColor="White" Font-Bold="True" 
+          BackColor="#A55129" HorizontalAlign="Center"></HeaderStyle>
+            <Columns>
+                <asp:BoundField DataField ="Fecha" HeaderText ="Fecha" ReadOnly="True" SortExpression="Fecha"/>
+                <asp:BoundField DataField ="Monto" HeaderText ="Monto" ReadOnly="True" SortExpression="Monto"/>
+                <asp:BoundField DataField ="NuevoSaldo" HeaderText ="Nuevo Saldo" ReadOnly="True" SortExpression="NuevoSaldo"/>
+                <asp:BoundField DataField ="Descripcion" HeaderText ="Descripción" ReadOnly="True" SortExpression="Descripcion"/>
+
+            </Columns>
+            
+        </asp:GridView>
+
     </div>
 </asp:Content>
 

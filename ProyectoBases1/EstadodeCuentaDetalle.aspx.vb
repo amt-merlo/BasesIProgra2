@@ -3,7 +3,7 @@
 
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
         Dim ID As Integer = Request.QueryString("ID")
-
+        Session("patron") = txtPatron.Text
 
     End Sub
 
@@ -11,7 +11,10 @@
 
     End Sub
 
-    Protected Sub GridView1_SelectedIndexChanged(sender As Object, e As EventArgs) Handles GridView1.SelectedIndexChanged
+    Protected Sub btnBuscar_Click(sender As Object, e As EventArgs) Handles btnBuscar.Click
+        Session("patron") = txtPatron.Text
+
+
 
     End Sub
 End Class
