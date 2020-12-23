@@ -13,7 +13,7 @@
 
             <p align="center" style="font-family:Times;">
 
-               Ingrese sus credenciales para ingresar:
+               Ingrese sus credenciales para ingresar: 
             </p>
 
             <p align="center">
